@@ -13,14 +13,14 @@ export default function DiscountBar({
       setDiscountApplied(true);
     } else {
       setDiscountApplied(false);
-      alert("Invalid code or minimum not met");
+      alert("Total must be above ₹500 to apply Discount.");
     }
   };
 
   return (
     <div style={{ marginTop: "10px" }}>
       <input
-        placeholder="Discount code"
+        placeholder="Discount code : SAVE10"
         value={code}
         onChange={(e) => setCode(e.target.value)}
       />

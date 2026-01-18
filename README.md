@@ -1,16 +1,87 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# 🛒 React Shopping Cart
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple **React Shopping Cart application** that allows users to view products, add items to the cart, update quantities, and remove products. This project is built to practice **React fundamentals**, state management, and component-based architecture.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Features
 
-## Expanding the ESLint configuration
+* 📦 Display list of products
+* ➕ Add products to cart
+* ➖ Increase / decrease product quantity
+* ❌ Remove items from cart
+* 💰 Auto-updating total price
+* ⚛️ Built using React functional components & hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+* **React**
+* **JavaScript (ES6)**
+* **CSS** / **Tailwind CSS** (optional)
+* **Vite / Create React App**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│   ├── ProductList.jsx
+│   ├── Cart.jsx
+│   ├── CartItem.jsx
+│
+│── data/
+│   └── products.js
+│
+│── App.jsx
+│── main.jsx
+│── index.css
+```
+
+---
+
+##  Concepts Covered
+
+* React Components
+* Props & State
+* `useState` Hook
+* Array methods (`map`, `filter`, `reduce`)
+* Conditional Rendering
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/react-shopping-cart.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd react-shopping-cart
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the project
+
+```bash
+npm run dev
+```
+
+---
+
+
